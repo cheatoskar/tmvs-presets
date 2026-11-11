@@ -1,0 +1,16 @@
+{
+ "name": "Warm Film (example)",
+ "author": "TM Horizon examples",
+ "description": "Example entry: a mild warm tint as a 17x17x17 look. Not a community look.",
+ "tags": [
+  "warm",
+  "film"
+ ],
+ "games": [
+  "tmnf",
+  "tmuf",
+  "tmn-eswc",
+  "tm2"
+ ],
+ "example": true
+}
