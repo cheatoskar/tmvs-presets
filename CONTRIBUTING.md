@@ -53,3 +53,9 @@ Look (`luts/<id>/`): `<id>.cube`, 3D, at most 64 x 64 x 64 and 8 MB, input range
 Pack (`packs/<id>/`): `<id>.zip` at most 64 MB, only textures and sounds (`.dds`, `.tga`, `.png`, `.jpg`, sounds), nothing executable, no zips inside, no paths with `..`. In `meta.json`: `env` (Stadium, Bay, Coast, Island, Desert, Rally, Snow, Alpine) and only `tmnf`/`tmuf`. A preview in the zip (`Image/LoadScreen.dds` or `preview.png`/`.jpg`) or `<id>.jpg` next to it.
 
 Then run `python tools/make-index.py`: it checks the rules and writes `index.json`.
+
+---
+
+Mit dem Einreichen stellst du dein Preset, deinen Look oder dein Pack unter CC0 (siehe [LICENSE](LICENSE)).
+
+By submitting you release your preset, look or pack under CC0 (see [LICENSE](LICENSE)).
