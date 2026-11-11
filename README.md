@@ -2,9 +2,9 @@
 
 **Deutsch**
 
-Das ist meine Sammlung von Presets, Colour-Looks (LUTs) und Resource-Packs für [TM Vibrant Shaders](https://github.com/cheatoskar/TM-Vibrant-Shaders). Der TM Horizon Launcher liest die `index.json` aus diesem Repo und zeigt alles auf der Seite von TM Vibrant Shaders unter *Presets*, *Looks* und *Packs*. Installieren heißt: Datei laden, SHA-256 prüfen, Inhalt prüfen, in den Ordner legen, den TMVS beim Spielen liest. Entfernen löscht nur, was der Launcher selbst installiert hat.
+Das ist meine Sammlung von Presets, Colour-Looks (LUTs) und Resource-Packs für [TM Vibrant Shaders](https://github.com/cheatoskar/TM-Vibrant-Shaders). Launcher und Tools können die `index.json` aus diesem Repo lesen und alles unter *Presets*, *Looks* und *Packs* anzeigen. Installieren heißt: Datei laden, SHA-256 prüfen, Inhalt prüfen, in den Ordner legen, den TMVS beim Spielen liest. Entfernen löscht nur, was der Launcher selbst installiert hat.
 
-Stand: noch nicht veröffentlicht. Die drei Einträge mit `example` im Namen sind Beispiele für das Format und keine Community-Einträge: sie sind aus den eingebauten Presets Competition, Performance und Horror gemacht, dazu ein Beispiel-Look und ein leeres Beispiel-Pack (nur ein Vorschaubild, es ändert nichts im Spiel).
+Lizenz: Presets, Looks und Packs sind CC0 ([LICENSE](LICENSE)), die Skripte in `tools/` MIT ([tools/LICENSE-MIT](tools/LICENSE-MIT)). Die drei Einträge mit `example` im Namen sind Beispiele für das Format und keine Community-Einträge: sie sind aus den eingebauten Presets Competition, Performance und Horror gemacht, dazu ein Beispiel-Look und ein leeres Beispiel-Pack (nur ein Vorschaubild, es ändert nichts im Spiel).
 
 Aufbau:
 
@@ -19,9 +19,9 @@ Index neu bauen und Regeln prüfen: `python tools/make-index.py`. Einreichen: si
 
 **English**
 
-This is my collection of presets, colour looks (LUTs) and resource packs for [TM Vibrant Shaders](https://github.com/cheatoskar/TM-Vibrant-Shaders). The TM Horizon launcher reads `index.json` from this repository and shows everything on TM Vibrant Shaders' page under *Presets*, *Looks* and *Packs*. Installing means: download, check the SHA-256, check the content, write it to the folder TMVS reads while the game runs. Removing deletes only what the launcher installed itself.
+This is my collection of presets, colour looks (LUTs) and resource packs for [TM Vibrant Shaders](https://github.com/cheatoskar/TM-Vibrant-Shaders). Launchers and tools can read `index.json` from this repository and show everything under *Presets*, *Looks* and *Packs*. Installing means: download, check the SHA-256, check the content, write it to the folder TMVS reads while the game runs. Removing deletes only what the launcher installed itself.
 
-Status: not published yet. The entries with `example` in their name show the format and are not community entries: three are made from the built-in presets Competition, Performance and Horror, plus a sample look and an empty sample pack (only a preview picture, it changes nothing in the game).
+Licence: presets, looks and packs are CC0 ([LICENSE](LICENSE)), the scripts in `tools/` are MIT ([tools/LICENSE-MIT](tools/LICENSE-MIT)). The entries with `example` in their name show the format and are not community entries: three are made from the built-in presets Competition, Performance and Horror, plus a sample look and an empty sample pack (only a preview picture, it changes nothing in the game).
 
 Layout: see the table above. Rebuild the index and check the rules with `python tools/make-index.py`. To submit something, read [CONTRIBUTING.md](CONTRIBUTING.md).
 
