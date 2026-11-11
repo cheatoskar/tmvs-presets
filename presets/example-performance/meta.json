@@ -1,0 +1,16 @@
+{
+ "name": "Performance (example)",
+ "author": "TM Horizon examples",
+ "description": "The Vibrant look for weaker GPUs: fewer samples, no shafts.",
+ "tags": [
+  "day",
+  "lightweight"
+ ],
+ "games": [
+  "tmnf",
+  "tmuf",
+  "tmn-eswc",
+  "tm2"
+ ],
+ "example": true
+}

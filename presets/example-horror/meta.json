@@ -1,0 +1,16 @@
+{
+ "name": "Horror (example)",
+ "author": "TM Horizon examples",
+ "description": "Black night in thick fog. Only your headlights light the road.",
+ "tags": [
+  "night",
+  "dark"
+ ],
+ "games": [
+  "tmnf",
+  "tmuf",
+  "tmn-eswc",
+  "tm2"
+ ],
+ "example": true
+}

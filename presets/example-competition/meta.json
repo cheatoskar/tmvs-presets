@@ -1,0 +1,17 @@
+{
+ "name": "Competition (example)",
+ "author": "TM Horizon examples",
+ "description": "Clarity first: shadows and depth, no haze or lens effects.",
+ "tags": [
+  "day",
+  "clarity",
+  "lightweight"
+ ],
+ "games": [
+  "tmnf",
+  "tmuf",
+  "tmn-eswc",
+  "tm2"
+ ],
+ "example": true
+}

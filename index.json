@@ -1,0 +1,154 @@
+{
+ "format": 1,
+ "items": [
+  {
+   "id": "example-competition",
+   "kind": "preset",
+   "name": "Competition (example)",
+   "author": "TM Horizon examples",
+   "description": "Clarity first: shadows and depth, no haze or lens effects.",
+   "tags": [
+    "day",
+    "clarity",
+    "lightweight"
+   ],
+   "games": [
+    "tmnf",
+    "tmuf",
+    "tmn-eswc",
+    "tm2"
+   ],
+   "files": [
+    {
+     "role": "ini",
+     "path": "presets/example-competition/example-competition.ini",
+     "sha256": "8747009e91536bd2dfdd3b7da8a15e94a45d5a99619d46d72b1b4d1de335aaaf"
+    },
+    {
+     "role": "jpg",
+     "path": "presets/example-competition/example-competition.jpg",
+     "sha256": "087cda2c647300451c67ec58fe73687f98a1a83fd8600404f924c1e19b634a5b"
+    }
+   ],
+   "example": true
+  },
+  {
+   "id": "example-horror",
+   "kind": "preset",
+   "name": "Horror (example)",
+   "author": "TM Horizon examples",
+   "description": "Black night in thick fog. Only your headlights light the road.",
+   "tags": [
+    "night",
+    "dark"
+   ],
+   "games": [
+    "tmnf",
+    "tmuf",
+    "tmn-eswc",
+    "tm2"
+   ],
+   "files": [
+    {
+     "role": "ini",
+     "path": "presets/example-horror/example-horror.ini",
+     "sha256": "147f632e03fbd9f63767b3be8d79258654c7f2d11b4c97d19a4f30a4d08c3479"
+    },
+    {
+     "role": "jpg",
+     "path": "presets/example-horror/example-horror.jpg",
+     "sha256": "909c53478bbb469f4cb36d1c4cd27094993408ed1fa4035fb1e473984f02e06a"
+    }
+   ],
+   "example": true
+  },
+  {
+   "id": "example-performance",
+   "kind": "preset",
+   "name": "Performance (example)",
+   "author": "TM Horizon examples",
+   "description": "The Vibrant look for weaker GPUs: fewer samples, no shafts.",
+   "tags": [
+    "day",
+    "lightweight"
+   ],
+   "games": [
+    "tmnf",
+    "tmuf",
+    "tmn-eswc",
+    "tm2"
+   ],
+   "files": [
+    {
+     "role": "ini",
+     "path": "presets/example-performance/example-performance.ini",
+     "sha256": "12cad322beb5b407f1502530a4ad81f6589533e64291b735e321cc0dfb899509"
+    },
+    {
+     "role": "jpg",
+     "path": "presets/example-performance/example-performance.jpg",
+     "sha256": "82c8dc7102f6d2602a8e5cc211a54a6006302161bd3776913b6469ed9f2565fa"
+    }
+   ],
+   "example": true
+  },
+  {
+   "id": "example-warm-film",
+   "kind": "lut",
+   "name": "Warm Film (example)",
+   "author": "TM Horizon examples",
+   "description": "Example entry: a mild warm tint as a 17x17x17 look. Not a community look.",
+   "tags": [
+    "warm",
+    "film"
+   ],
+   "games": [
+    "tmnf",
+    "tmuf",
+    "tmn-eswc",
+    "tm2"
+   ],
+   "files": [
+    {
+     "role": "cube",
+     "path": "luts/example-warm-film/example-warm-film.cube",
+     "sha256": "da02796e78129b38ae3fa4384025ddddc1adf2f1f7b5efa06c98aa20a1edbcdd"
+    },
+    {
+     "role": "preview",
+     "path": "luts/example-warm-film/example-warm-film.jpg",
+     "sha256": "1fb9111bbdc596d5918c71d3f0c879c227ea01a863c27ec2ae5744d569c402bd"
+    }
+   ],
+   "example": true
+  },
+  {
+   "id": "example-empty-pack",
+   "kind": "pack",
+   "name": "Empty Pack (example)",
+   "author": "TM Horizon examples",
+   "description": "Example entry: a zip with only a preview picture, so it changes nothing in the game. Shows how a pack entry looks.",
+   "tags": [
+    "textures"
+   ],
+   "games": [
+    "tmnf",
+    "tmuf"
+   ],
+   "env": "Stadium",
+   "files": [
+    {
+     "role": "zip",
+     "path": "packs/example-empty-pack/example-empty-pack.zip",
+     "sha256": "c9f0ecd6d14abc7da3f2ad1f0e0a481a32257ff1b0a38b48c925ffe54a7b0b32"
+    },
+    {
+     "role": "preview",
+     "path": "packs/example-empty-pack/example-empty-pack.jpg",
+     "sha256": "fc8165dfe82916c95e36700d60d71557957b25125339b8a009d781301856de29"
+    }
+   ],
+   "example": true
+  }
+ ]
+}

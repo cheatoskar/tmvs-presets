@@ -1,0 +1,14 @@
+{
+ "name": "Empty Pack (example)",
+ "author": "TM Horizon examples",
+ "description": "Example entry: a zip with only a preview picture, so it changes nothing in the game. Shows how a pack entry looks.",
+ "tags": [
+  "textures"
+ ],
+ "games": [
+  "tmnf",
+  "tmuf"
+ ],
+ "env": "Stadium",
+ "example": true
+}
