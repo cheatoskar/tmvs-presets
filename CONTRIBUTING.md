@@ -1,36 +1,4 @@
-# Einreichen / Contributing
-
-**Deutsch**
-
-Ein Eintrag wird als Issue eingereicht (der Launcher öffnet unter *Presets*, *Meins teilen* ein vorbereitetes Issue) oder als Pull Request mit einem neuen Ordner. Nichts wird vom Launcher hochgeladen: du hängst die Dateien selbst an.
-
-Regeln für alle Einträge:
-
-1. Es muss deine eigene Arbeit sein, oder du hast die Erlaubnis des Autors, und der Autor steht im Eintrag. Kein Material von Dritten ohne Erlaubnis, keine Marken oder Logos als Bild.
-2. Name: 1 bis 40 Zeichen, ohne `\ / : * ? " < > |`, nicht der Name eines eingebauten Presets (Vibrant, Realistic, Golden Hour, Dreamy, Neon, Horizon, Aurora, Competition, Performance, Rainy, Replay Cinema, Storm, Snowstorm, Horror). Ordnername (die `id`): a-z, 0-9 und Bindestriche.
-3. Beschreibung: ein bis zwei Sätze, höchstens 200 Zeichen, sachlich. Tags: ein bis acht aus der Liste in `tools/make-index.py`.
-4. Spiele: nur die, für die du es getestet hast (`tmnf`, `tmuf`, `tmn-eswc`, `tm2`).
-5. Keine Werbung, keine Links zu Spenden- oder Bezahlseiten in Namen, Beschreibungen oder Bildern.
-6. Nichts, was das Spiel unspielbar macht (komplett schwarzes Bild, Flackern mit hoher Frequenz). Lichtblitze und Flackern gehören in die Beschreibung.
-
-Preset (`presets/<id>/`):
-- `<id>.ini` höchstens 16 KB, Text (UTF-8), nur `[Preset]` und `[Info]` (`Description=`). In `[Preset]` nur Einstellungen aus der Tabelle *All settings* in der TMVS-Doku, Werte innerhalb ihres Bereichs. Einstellungen der Installation (Video-Export, Render-Skalierung, Neon-Spur, VR, Spiel-Integration) sind nicht erlaubt; der Launcher lehnt sie ab.
-- `<id>.jpg`: echtes JPEG, 16:9, höchstens 1 MB (384 x 216 reicht). Das Bild zeigt das Preset, kein Menü und keine Namen von Spielern.
-- Am einfachsten: in TMVS speichern (*Save as preset*), die beiden Dateien aus `Documents\TrackMania\TMVS\presets` nehmen.
-
-Look (`luts/<id>/`): `<id>.cube`, 3D, höchstens 64 x 64 x 64 und 8 MB, Eingangsbereich 0..1 (1D-Tabellen und `DOMAIN_MIN`/`DOMAIN_MAX` anders als 0/1 geht nicht). Optionales Vorschaubild `<id>.jpg` (16:9).
-
-Pack (`packs/<id>/`): `<id>.zip` höchstens 64 MB, nur Texturen und Töne (`.dds`, `.tga`, `.png`, `.jpg`, Sounds), keine ausführbaren Dateien, keine Zips im Zip, keine Pfade mit `..`. In `meta.json`: `env` (Stadium, Bay, Coast, Island, Desert, Rally, Snow, Alpine) und nur `tmnf`/`tmuf`. Ein Vorschaubild im Zip (`Image/LoadScreen.dds` oder `preview.png`/`.jpg`) oder `<id>.jpg` daneben.
-
-`meta.json`:
-
-```json
-{ "name": "Night Drive", "author": "name", "description": "One sentence.", "tags": ["night"], "games": ["tmnf", "tmuf"] }
-```
-
-Danach `python tools/make-index.py` ausführen, es prüft die Regeln und schreibt `index.json`.
-
-**English**
+# Contributing
 
 Submit an entry as an issue (the launcher opens a prepared one under *Presets*, *Share mine*) or as a pull request with a new folder. The launcher uploads nothing: you attach the files yourself.
 
@@ -53,9 +21,5 @@ Look (`luts/<id>/`): `<id>.cube`, 3D, at most 64 x 64 x 64 and 8 MB, input range
 Pack (`packs/<id>/`): `<id>.zip` at most 64 MB, only textures and sounds (`.dds`, `.tga`, `.png`, `.jpg`, sounds), nothing executable, no zips inside, no paths with `..`. In `meta.json`: `env` (Stadium, Bay, Coast, Island, Desert, Rally, Snow, Alpine) and only `tmnf`/`tmuf`. A preview in the zip (`Image/LoadScreen.dds` or `preview.png`/`.jpg`) or `<id>.jpg` next to it.
 
 Then run `python tools/make-index.py`: it checks the rules and writes `index.json`.
-
----
-
-Mit dem Einreichen stellst du dein Preset, deinen Look oder dein Pack unter CC0 (siehe [LICENSE](LICENSE)).
 
 By submitting you release your preset, look or pack under CC0 (see [LICENSE](LICENSE)).
