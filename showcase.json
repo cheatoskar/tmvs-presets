@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "theme": { "accent": "orange" },
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "TMVS Presets",
+      "tagline": "Presets, colour looks and resource packs for TM Vibrant Shaders.",
+      "image": "https://raw.githubusercontent.com/cheatoskar/tmvs-presets/main/presets/example-competition/example-competition.jpg",
+      "badges": ["CC0", "TM Vibrant Shaders"]
+    },
+    {
+      "type": "features",
+      "items": [
+        { "icon": "sliders-horizontal", "title": "Presets", "text": "A full look as one .ini file with a preview picture." },
+        { "icon": "palette", "title": "Looks", "text": "Colour grading tables (.cube) for the mod's LUT stage." },
+        { "icon": "package", "title": "Resource packs", "text": "Textures and sounds for Nations and United, sorted by environment." },
+        { "icon": "shield", "title": "Checked entries", "text": "Every file is listed in index.json with its SHA-256; a script checks the rules." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "title": "Example entries",
+      "images": [
+        { "url": "https://raw.githubusercontent.com/cheatoskar/tmvs-presets/main/presets/example-competition/example-competition.jpg", "caption": "Competition" },
+        { "url": "https://raw.githubusercontent.com/cheatoskar/tmvs-presets/main/presets/example-horror/example-horror.jpg", "caption": "Horror" },
+        { "url": "https://raw.githubusercontent.com/cheatoskar/tmvs-presets/main/presets/example-performance/example-performance.jpg", "caption": "Performance" }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Share your own",
+      "markdown": "Send a preset, a look or a pack as an issue or a pull request. The rules are in [CONTRIBUTING.md](https://github.com/cheatoskar/tmvs-presets/blob/main/CONTRIBUTING.md). Everything here is CC0."
+    },
+    {
+      "type": "compat",
+      "rows": [
+        { "game": "tmnf", "status": "works" },
+        { "game": "tmuf", "status": "works" },
+        { "game": "eswc", "status": "works", "note": "Presets and looks" },
+        { "game": "tm2-canyon", "status": "works", "note": "Presets and looks" },
+        { "game": "tm2-stadium", "status": "works", "note": "Presets and looks" },
+        { "game": "tm2-valley", "status": "works", "note": "Presets and looks" },
+        { "game": "tm2-lagoon", "status": "works", "note": "Presets and looks" }
+      ]
+    },
+    {
+      "type": "cta",
+      "buttons": [
+        { "kind": "link", "label": "TM Vibrant Shaders", "url": "https://github.com/cheatoskar/TM-Vibrant-Shaders" },
+        { "kind": "link", "label": "How to contribute", "url": "https://github.com/cheatoskar/tmvs-presets/blob/main/CONTRIBUTING.md", "style": "ghost" }
+      ]
+    }
+  ]
+}
